@@ -41,6 +41,7 @@
     "eslint": "^5.12.1",
     "nodemon": "^1.18.9",
     "pre-git": "^3.17.1",
+    "prettier": "^1.18.2",
     "pretty": "^2.0.0",
     "ts-node": "^8.3.0",
     "typescript": "^3.5.3"

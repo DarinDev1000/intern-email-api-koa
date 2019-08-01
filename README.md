@@ -25,8 +25,8 @@ Requirements:
     * `npm -v`
 
 3. Download this project
-    * https://github.com/DarinDev1000/halfway-backend
-    * Or run  `git clone https://github.com/DarinDev1000/halfway-backend`
+    * https://github.com/DarinDev1000/intern-email-api-koa
+    * Or run  `git clone https://github.com/DarinDev1000/intern-email-api-koa`
 
 4. Setup a database: MariaDB/MySQL
     * If you don't have a database, I suggest MariaDB (a fork of MySQL)
