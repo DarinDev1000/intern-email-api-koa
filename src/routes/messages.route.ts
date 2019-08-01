@@ -7,9 +7,9 @@
 // const router = require('koa-router')(); // router middleware for koa
 const messages = require('../models/messages.model');
 
-import * as Router from "koa-router";
 // import * as sample from "../models/sample.model";
 
+import * as Router from "koa-router";
 const router: Router = new Router();
 
 router.prefix('/message');
