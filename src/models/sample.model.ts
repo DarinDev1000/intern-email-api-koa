@@ -1,6 +1,6 @@
 //const middleMVP = require("../services/middle.service");
 
-class Sample {
+export default class Sample {
 
   static async sampleFunction(ctx) {
     try {
@@ -63,4 +63,4 @@ class Sample {
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
-module.exports = Sample;
+// module.exports = Sample;
