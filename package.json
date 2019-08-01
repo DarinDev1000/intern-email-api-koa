@@ -1,0 +1,65 @@
+{
+  "name": "intern-email-api-koa",
+  "version": "1.0.0",
+  "description": "The node server code for Intern Email API Koa",
+  "main": "src/app.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "nodemon src/app",
+    "dev": "nodemon src/app",
+    "devtools": "nodemon --inspect src/app",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "commit-wizard",
+    "pretty": "prettier --write '*.{ts,js,yml,json}'"
+  },
+  "keywords": [
+    "email",
+    "messages",
+    "api"
+  ],
+  "author": "Darin",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bunyan": "^1.8.12",
+    "dotenv": "^6.2.0",
+    "koa": "^2.6.2",
+    "koa-body": "^4.0.6",
+    "koa-bunyan": "^1.0.2",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6",
+    "mysql2": "^1.6.4"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/koa": "^2.0.49",
+    "@types/mysql": "^2.15.6",
+    "@types/node": "^12.6.8",
+    "eslint": "^5.12.1",
+    "nodemon": "^1.18.9",
+    "pre-git": "^3.17.1",
+    "pretty": "^2.0.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "release": {
+    "analyzeCommits": "simple-commit-message"
+  },
+  "config": {
+    "pre-git": {
+      "enabled": "true",
+      "pre-commit": [
+        "npm run pretty"
+      ],
+      "pre-push": [
+        "npm run pretty"
+      ],
+      "post-commit": [],
+      "post-checkout": [],
+      "post-merge": []
+    }
+  }
+}
