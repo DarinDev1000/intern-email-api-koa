@@ -12,13 +12,6 @@ class MessageService {
 
 
 
-
-
-
-
-
-
-
   static async addMessages(ctx) {
     try {
       const data = ctx.request.body;
