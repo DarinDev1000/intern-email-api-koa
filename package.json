@@ -13,7 +13,7 @@
     "devtools": "nodemon --inspect src/app",
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "commit-wizard",
-    "pretty": "prettier --write 'src/**/*.{ts,js,yml,json}'"
+    "pretty": "prettier --write 'src/*.{ts,js,yml,json}' && prettier --write 'src/**/*.{ts,js,yml,json}'"
   },
   "keywords": [
     "email",
