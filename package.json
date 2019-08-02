@@ -40,28 +40,17 @@
     "@types/mysql": "^2.15.6",
     "@types/node": "^12.6.8",
     "eslint": "^5.12.1",
+    "husky": "^3.0.2",
     "nodemon": "^1.18.9",
-    "pre-git": "^3.17.1",
     "prettier": "^1.18.2",
     "pretty": "^2.0.0",
     "ts-node": "^8.3.0",
     "typescript": "^3.5.3"
   },
-  "release": {
-    "analyzeCommits": "simple-commit-message"
-  },
-  "config": {
-    "pre-git": {
-      "enabled": "true",
-      "pre-commit": [
-        "npm run pretty"
-      ],
-      "pre-push": [
-        "npm run pretty"
-      ],
-      "post-commit": [],
-      "post-checkout": [],
-      "post-merge": []
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run pretty",
+      "pre-push": "npm run pretty"
     }
   }
 }
