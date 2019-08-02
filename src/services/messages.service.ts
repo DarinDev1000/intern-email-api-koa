@@ -8,9 +8,7 @@ class MessageService {
       return messages;
     } catch (e) {
       console.error(e);
-      throw e;
-      }
-  }
+      throw e; } }
 
 
 
