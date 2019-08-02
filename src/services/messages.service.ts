@@ -9,8 +9,17 @@ class MessageService {
     } catch (e) {
       console.error(e);
       throw e;
-    }
+      }
   }
+
+
+
+
+
+
+
+
+
 
   static async addMessages(ctx) {
     try {
