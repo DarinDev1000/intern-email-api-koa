@@ -63,4 +63,4 @@ export default class Sample {
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
-// module.exports = Sample;
+module.exports = Sample;

@@ -177,7 +177,7 @@ app.use(async function mysqlConnection(ctx, next) {
 
 
 // PUBLIC ROUTES
-// app.use(require('./routes/root.route'));
+app.use(require('./routes/root.route'));
 app.use(require('./routes/messages.route.ts'));
 
 /* create server - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
