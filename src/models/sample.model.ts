@@ -1,4 +1,3 @@
-//const middleMVP = require("../services/middle.service");
 
 export default class Sample {
 
@@ -42,22 +41,6 @@ export default class Sample {
       throw e;
     }
   }
-
-  // static async function1(ctx) {
-  //   try {
-  //     const [results] = await global.db.query(`select * from users`);
-  //     ctx.body = results;
-  //   } catch (e) {
-  //     console.log(e);
-  //     throw e;
-  //   }
-  // }
-
-  // static async function2(ctx, next) {
-  //   ctx.state = {
-  //     session: this.session,
-  //     title: 'app'
-  //   };
 
 }
 
